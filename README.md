@@ -3,59 +3,7 @@ student_management_system_in_django
 
 [![Open Source Love](https://badges.frapsoft.com/os/mit/mit.svg?v=102)](https://github.com/hackstarsj/student_management_system_part_11/raw/master/LICENSE)
 
-<h2>Complete Video Tutorial : <a href="https://www.youtube.com/playlist?list=PLb-NlfexLTk_tUlAPj05s2zc8JgHTVkpH">Link</a></h2>
 
-<a href="http://studentmanagementsystem22.herokuapp.com/">Live Project Link</a>
-<h4>Login</h4>
-<pre>
-admin@gmail.com
-admin
-</pre>
-
-<h2> How to Deploy on Heroku </h2> 
-Tutorial Link : <a href="https://youtu.be/n4ly0_S3uGo">https://youtu.be/n4ly0_S3uGo</a>
-
-
-<h2>Installation Steps : </h2>
-
-<p>Project Dependency :</p>
-<pre>
-pip install requests
-pip install Django
-pip install mysql-client
-</pre>
-<hr>
-<ul>
-<ol>First Create MySql Database Tutorial : <a href="https://youtu.be/cEazlDKu86E">https://youtu.be/cEazlDKu86E</a> </ol>
-<ol>Change Database Setting in settings.py </ol>
-<ol>
-Run Migration Command 
-<pre>
-python manage.py makemigrations
-python manage.py migrate
-</pre>
- <ul>     
-<li>In login_page.html Replace <pre>CAPTCHA_CLIENT_KEY</pre> with Captcha Client Side Key</li>
-<li>In views.py Replace <pre>CAPTCHA_SERVER_KEY</pre> with Captcha SERVER Side Key</li>
-<li>For Captcha Key Visit <a href="https://www.google.com/recaptcha/intro/v3.html">https://www.google.com/recaptcha/intro/v3.html</a></li>
-</ul>
-</ol>
-<ol>
-Run Project python runserver
-</ol>
-</ul>
-<hr>
-<b>For Video Confrencing Using This Library Complete Demo Project : <a href="https://www.rtcmulticonnection.org/">https://www.rtcmulticonnection.org/</a></b>
-<hr>
-<h2>Complete Video Course</h2>
-<div align="center" style="width:100%">
-      <a href="https://www.youtube.com/playlist?list=PLb-NlfexLTk_tUlAPj05s2zc8JgHTVkpH">
-     <img 
-      src="https://img.youtube.com/vi/y3llbdTtam4/maxresdefault.jpg" 
-      alt="Student management System" 
-      style="width:100%;">
-      </a>
-</div>
 
 <h2>Database Design</h2>
 
